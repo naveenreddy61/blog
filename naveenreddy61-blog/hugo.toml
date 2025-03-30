@@ -1,0 +1,81 @@
+baseURL = 'https://naveenreddy.github.io/'
+languageCode = 'en-us'
+title = 'My Personal blog'
+
+theme = 'typo'
+
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A place to write about AI, Fitness, Movies, ML"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Welcome'
+homeIntroContent = """
+This is my homepage where I will add my learning and interests and opine on things.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+# listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/naveenreddy61/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/naveenreddy61"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name = "tags"
+url = "/tags"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# # Giscus comments
+# [params.giscus]
+# enable = false
+# repo = "user/repo"
+# repoid = "repoId"
+# category = "General"
+# categoryid = "categoryId"
+# mapping = "pathname"
+# theme = "preferred_color_scheme"
+#
