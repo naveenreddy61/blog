@@ -11,6 +11,7 @@ tag = 'tags'
 [params]
 # Meta description
 description = "A place to write about AI, Fitness, Movies, ML"
+math = true
 
 # Appearance settings
 theme = 'auto'
